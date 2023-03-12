@@ -44,6 +44,7 @@ int sum(){
     printf("Enter the second number: ");
     scanf("%d",&num2);
     printf("The sum = %d\n",num1+num2);
+    chooseOperation();
 }
 int chooseOperation(){
     menu();
